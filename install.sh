@@ -159,7 +159,7 @@ install_x-ui() {
     systemctl daemon-reload
     systemctl enable x-ui
     systemctl start x-ui
-    echo -e "${green}x-ui ${last_version}${plain} installation finished, it is running now..."
+    echo -e "${green}HORiZON X-UI ${last_version}${plain} installation finished, it is running now..."
     echo -e ""
     echo -e "${green}HORiZON X-UI control menu usages: "
     echo -e "----------------------------------------------"
@@ -171,7 +171,7 @@ install_x-ui() {
     echo -e "x-ui enable       - Enable    x-ui on system startup"
     echo -e "x-ui disable      - Disable   x-ui on system startup"
     echo -e "x-ui log          - Check     x-ui logs"
-    echo -e "x-ui banlog       - Check Fail2ban ban logs"
+    echo -e "x-ui banlog       - Check     Fail2ban ban logs"
     echo -e "x-ui update       - Update    x-ui"
     echo -e "x-ui install      - Install   x-ui"
     echo -e "x-ui uninstall    - Uninstall x-ui"
