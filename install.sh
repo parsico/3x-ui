@@ -161,7 +161,7 @@ install_x-ui() {
     systemctl start x-ui
     echo -e "${green}x-ui ${last_version}${plain} installation finished, it is running now..."
     echo -e ""
-    echo -e "HORiZON X-UI control menu usages: "
+    echo -e "${green}HORiZON X-UI control menu usages: "
     echo -e "----------------------------------------------"
     echo -e "x-ui              - Enter     Admin menu"
     echo -e "x-ui start        - Start     x-ui"
